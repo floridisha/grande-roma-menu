@@ -10,16 +10,61 @@
     <link rel="stylesheet" href="/main.css">
 </head>
 <body>
-    <section class="bg-custom">
-        <div class="container-fluid">
-            <img src="/grande roma-logo.png" class="img-fluid mx-auto d-block py-3" width="200px" alt="">
-        </div>
-    </section>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light b-custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="/grande roma-logo.png" class="img-fluid px-2" width="90px" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#supat">Supat</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sallat">Sallat</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#antipasta">Antipasta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#pizza">Pizza</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#baguette">Baguette</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#calzone">Calzone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#conchas">Conchas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#pastat">Pastat</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#risoto">Risoto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#rissonero">Rissonero</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#mish">Mish</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#pijet">Pijet</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
     <section class="menu-custom">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-white text-uppercase text-center py-3">Supat</h2>
+                    <h2 id="supat" class="text-white text-uppercase text-center py-3">Supat</h2>
                     <ul class="list-group">
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Krem Pule, Karrotë, Selino<span>350 ALL</span></li>
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Krem Viçi, Fasule, Kopër<span>400 ALL</span></li>
@@ -28,7 +73,7 @@
                     </ul>
                 </div>
                 <div class="col-12">
-                    <h2 class="text-white text-uppercase text-center py-3">Sallat</h2>
+                    <h2 id="sallatat" class="text-white text-uppercase text-center py-3">Sallat</h2>
                     <ul class="list-group">
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Greke, Domate, Kastravec,Feta<span>300 ALL</span></li>
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Jeshile, Kastravec, Limon, Kopër<span>250 ALL</span></li>
@@ -39,7 +84,7 @@
                     </ul>
                 </div>
                 <div class="col-12">
-                    <h2 class="text-white text-uppercase text-center py-3">Antipasta</h2>
+                    <h2 id="antipasta" class="text-white text-uppercase text-center py-3">Antipasta</h2>
                     <h4 class="h6 text-white text-uppercase text-center py-3">Të Ngrohta</h4>
                     <ul class="list-group">
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Tapas 2 persona<span>500 ALL</span></li>
@@ -55,7 +100,7 @@
                     </ul>
                 </div>
                 <div class="col-12">
-                    <h2 class="text-white text-uppercase text-center py-3">Pizza</h2>
+                    <h2 id="pizza" class="text-white text-uppercase text-center py-3">Pizza</h2>
                     <h4 class="h6 text-white text-uppercase text-center py-3">Tradicionale</h4>
                     <ul class="list-group">
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Margherita <br><small>(Salcë Domatesh, Mozzarella)</small></p><span>400 ALL</span></li>
@@ -106,6 +151,105 @@
                     <ul class="list-group">
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Montanara <br><small>(Pâté Ulliri, Mozzarella, Ton, Qepë, Speca)</small></p><span>600 ALL</span></li>
                         <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Tersina <br><small>(Salcë, Pâté Tartufi, Mozzarella, Sallam Pikant, Kërpudhë e freskët)</small></p><span>650 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Tartufami <br><small>(Pâté Tartufi, Mozzarella, Sallam Pikant, Carciof, Gorgonzola)</small></p><span>650 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Vecchio Molino <br><small>(Pâté Ulliri, Mozzarella, Speca, Ton, Pomodorini)</small></p><span>600 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Afrodiziaca <br><small>(Salcë, Pâté Tartufi, Mozzarella, Speck, Rukola, Granna)</small></p><span>700 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Tartufata <br><small>(Pâté Tartufi, Mozzarella, Pançetë, Kërpudhë e freskët)</small></p><span>650 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Con Speck <br><small>(Pâté Tartufi, Mozzarella, Kërpudhë e freskët, Speck, Granna)</small></p><span>700 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Felice <br><small>(Salcë, Pâté Ulliri, Mozzarella, Pançetë, Kërpudhë e freskët)</small></p><span>600 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Lady Diana <br><small>(Pesto, Mozzarella, Pomodorini, Fetta Greke, Basilico)</small></p><span>600 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Rigogliosa <br><small>(Mozzarella Verde, Bufala, Scamorza, Brie, Pas Pjekjes Rukola, Pomodorini)</small></p><span>650 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Ordinario <br><small>(Pâté Borziloku, Mozzarella, Pas Pjekjes Pomodorini, Granna)</small></p><span>550 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">4 Gusti<span>750 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="baguette" class="text-white text-uppercase text-center py-3">Baguette</h2>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Brie <br><small>(Mozzarella, Brie, Kunguj, Pas Pjekjes Rukola, Proshutë Cotto)</small></p><span>650 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Gusto <br><small>(Mozzarella, Ricotta, Proshutë Krudo Rukola, Granna)</small></p><span>650 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Gj <br><small>(Mozzarella, Kërpudhë e freskët, Rukola, Speck, Granna)</small></p><span>650 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="calzone" class="text-white text-uppercase text-center py-3">Calzone</h2>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Proshutë Kërpudhë <br><small>(Mozzarella, Proshutë, Kërpudhë)</small></p><span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Perime <br><small>(Mozzarella, Miks Perimesh Zgare)</small></p><span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Sipas Dëshirës <span>650 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="conchas" class="text-white text-uppercase text-center py-3">Conchas</h2>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Conchas 1 <br><small>(Mozzarella, Patëllxhan, Spec, Krudo)</small></p><span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Conchas 2 <br><small>(Mozzarella, Domate e freskët, Rukola)</small></p><span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Conchas 3 <br><small>(Mozzarella, Kërpudhë e freskët, Speck dhe Granna Pas Pjekjes)</small></p><span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Conchas 4 <br><small>(Mozzarella, Pançetë, Gorgonzola, Granna)</small></p><span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Conchas 5 <br><small>(Mozzarella, Sallam Pikant, Gorgonzola)</small></p><span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Conchas 6 <br><small>(Mozzarella, Kunguj, Brie, Cotto Pas Pjekjes)</small></p><span>500 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="pastat" class="text-white text-uppercase text-center py-3">Pastat</h2>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Ravioli, Tartuf<span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Ravioli, Salc Portokall, Karkalec<span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Linguini, Karkalec, Kunguj<span>450 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Spaghetti, Kallamar, Karkalec<span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Tagliateli, Biftek Viçi, Salc Soje, Selino<span>450 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Penne, Fileto Pule, Karrotë, Krem Filadelfia<span>400 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Orecchiette, Krem Speci, Karkalec<span>450 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="risoto" class="text-white text-uppercase text-center py-3">Risoto</h2>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Vegetariane, Pesto Genoveze<span>400 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Kallamar, Karkalec, Majdanoz<span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Milaneze, Sallam Pikant, Saferano<span>450 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Fileto Pule, Karrotë, Portokall<span>450 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Fileto Pule, Kërpudhë, Tartuf<span>500 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="rissonero" class="text-white text-uppercase text-center py-3">Rissonero</h2>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Biftek Viçi, Selino, Pomodorini<span>500 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Ricotta, Spinaq<span>400 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="mish" class="text-white text-uppercase text-center py-3">Mish</h2>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Biftek Viçi Grill ose Tagliata Mediteranea<span>800 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Fileto Pule Grill ose Tagliata me Salcë Tartufi<span>700 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between">Bërxollë Viçi me Patate Furre<span>1000 ALL</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h2 id="pijet" class="text-white text-uppercase text-center py-3">Pijet</h2>
+                    <h4 class="h6 text-white text-uppercase text-center py-3">Birrat</h4>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Veltins Në Spinë 0.25l </p><span>200 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Veltins Në Spinë 0.5l </p><span>380 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Veltins Në Spinë 1l </p><span>670 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Heineken </p><span>250 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Paulaner </p><span>450 ALL</span></li>
+                    </ul>
+                    <h4 class="h6 text-white text-uppercase text-center py-3">Freskuese</h4>
+                    <ul class="list-group">
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Qafshtama 0.75l </p><span>200 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Qafshtama me Gaz 0.75l </p><span>200 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Coca-Cola </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Fanta Portokall </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Fanta Exotic </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Sprite </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Schweps </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Orange Soda </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Lemon Soda </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Bravo (Mollë, Pjeshkë, Rrush, Luleshtrydhe) </p><span>150 ALL</span></li>
+                        <li class="text-white list-group-item bg-transparent border-0 d-flex align-items-center justify-content-between"><p>Caj i Ftohë (Pjeshkë, Limon) </p><span>150 ALL</span></li>
                     </ul>
                 </div>
             </div>
