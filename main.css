@@ -22,3 +22,47 @@ h2 {
 small {
     font-size: 10px;
 }
+
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid transparent;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    text-decoration: none;
+  }
+
+  #button i {
+    color: #272727;
+  }
+
+  #button:hover i {
+      color: #fff;
+  }
+
+  #button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #fff;
+  }
+  #button:active {
+    background-color: transparent;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
